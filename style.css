@@ -1,0 +1,113 @@
+body {
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: Spartan;
+    src: url(https://fonts.google.com/specimen/Spartan) format("Spartan");
+  }
+
+.container_top
+{
+    margin-top: 20vh;
+}
+.bg_top {
+    background: url(images/bg-pattern-top-desktop.svg) no-repeat left top,
+                url(images/bg-pattern-bottom-desktop.svg) no-repeat right bottom ;
+    
+    }
+
+/* .bg_bottom {
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 0px;
+} */
+
+  
+.maint_title {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    line-height: 0.8;
+}
+
+.second_title{
+    margin-top: 3vh;
+    color: hsl(303, 10%, 53%);
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: inherit;
+    width: 500px;
+}
+
+.review_bg {
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 2vh;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.review_text{
+    vertical-align: middle;
+    margin-left: -25px;
+    padding-top: 1.5vh;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.review_star{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.review_two {
+    margin-left: 50px;
+}
+.review_three {
+    margin-left: 100px;
+}
+
+.bg_view{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    color: white;
+    margin-left: 3vh;
+    height: 250px;
+
+}
+
+.icon_review{
+    margin-top: 2vh;
+    border-radius: 50%;
+    width: 60%;
+}
+
+.first_name{
+margin-top: 1vh;
+}
+
+.second_name{
+    margin-top: 1vh;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;    
+}
+
+.view_text{
+    margin-top: 10px;
+    margin-left: -5vh;
+}
+.view_review{
+    margin: 2vh;
+}
+
+.view_2{
+    margin-top: 2vh;
+}
+
+
+.view_3{
+    margin-top: 4vh;
+}
